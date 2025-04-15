@@ -1,1 +1,2 @@
 # NY_hammustavad_kutsid_2025
+Andmetehnika projekt
