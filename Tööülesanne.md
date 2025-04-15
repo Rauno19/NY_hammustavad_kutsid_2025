@@ -24,7 +24,7 @@
     Provide detailed documentation on how to use the pipeline from start to finish, including any prerequisites, installation steps, and instructions for running the ETL process and generating the visualization.
    
 9. Final submission:
-    Submit the link to your shared git repository containing the ETL pipeline, visualization code, README, and documentation.
-    Include a brief report (around 500-700 words) describing the project's objectives, data sources, ETL process, visualization, and any challenges encountered and how they were addressed. 
+    Submit the **link to your shared git repository** containing the **ETL pipeline**, **visualization code**, **README**, and **documentation**.
+    Include a **brief report (around 500-700 words)** describing the project's objectives, data sources, ETL process, visualization, and any challenges encountered and how they were addressed. 
 
 *This group project aims to provide hands-on experience in implementing an ETL process and creating a data visualization while emphasizing the importance of data management and data engineering principles. Collaborate effectively within your group and ensure clear communication to complete the project successfully. Good luck!* 
