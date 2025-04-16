@@ -1,0 +1,11 @@
+Originaalkood: Priit Adleri githubist: https://github.com/adlerpriit/DECM_WS_Docker_ETL_AS/blob/main/transform_ilmateenistus.py
+
+import pandas as pd
+# Read in data from Excel (requires openpyxl). Adjust the filename as needed:
+df = pd.read_excel('Ilmateenistus/NY_kutsid.xlsx', decimal=',')
+
+# Rename date-related columns (optional, but helpful for clarity).
+df = df.rename(columns={'DateOfBite': 'Date'})
+
+# Export to Parquet
+df.to_parquet('ilmateenistus/NY_kutsid.parquet', index=False)
