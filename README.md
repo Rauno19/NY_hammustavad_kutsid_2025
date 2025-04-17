@@ -6,3 +6,4 @@ Algselt oli vanuse (Age) veerg antud erinevas formaadis. Oli märgitud ühte lah
 Üksikud väärtused, mida openRefinega polnud võimalik eemaldada, on eemaldatud MS-Exceliga
 
 Puhastatud failist tehtud NY_hammustavad_kutsid.parquet fail (kood repositooriumis)
+Repos kaks faili "NY_Kutsid.xmls", kus on AGE väärtustes tühjad lahtrid ja "NY_kutsid_AGE.csv", kus on AGE lahtrites väärtused 
