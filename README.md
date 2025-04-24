@@ -11,5 +11,5 @@ Puhastatud failist tehtud NY_hammustavad_kutsid.parquet fail (kood repositoorium
 
 Repos kaks faili "NY_Kutsid.xmls", kus on AGE väärtustes tühjad lahtrid ja "NY_kutsid-v2_AGE.csv", kus on AGE lahtrites väärtused 
 
-
+Muudetud 24.04 20.50
 
