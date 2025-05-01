@@ -13,3 +13,6 @@ Repos kaks faili "NY_Kutsid.xmls", kus on AGE väärtustes tühjad lahtrid ja "N
 
 Muudetud 24.04 20.50
 
+Repos uu puhastatud csv fail NY_kutsid_puhastatud_v3.csv
+Muudetud 25.04 13.02
+
