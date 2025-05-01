@@ -2,10 +2,12 @@ Originaalkood: Priit Adleri githubist: https://github.com/adlerpriit/DECM_WS_Doc
 
 import pandas as pd
 # Read in data from Excel (requires openpyxl). Adjust the filename as needed:
-df = pd.read_excel('Ilmateenistus/NY_kutsid.xlsx', decimal=',')
+df = pd.read_excel('data_folder/NY_kutsid.xlsx', decimal=',')
 
 # Rename date-related columns (optional, but helpful for clarity).
 df = df.rename(columns={'DateOfBite': 'Date'})
 
 # Export to Parquet
-df.to_parquet('ilmateenistus/NY_kutsid.parquet', index=False)
+df.to_parquet('data_folder/NY_kutsid.parquet', index=False)
+
+#'data_folder as example -> use your own path
