@@ -26,4 +26,6 @@ Muudetud 25.04 13.02
 * NY_kutsid_puhastatud_v4_workfile.xlsx: tavaline excel tööfail, mille data alusel genereeritud NY_kutsid_puhastatud_v4.csv.
 
 02.05.25 
-Updated NY_kutsid_puhastatud_v4.parquet for DuckDB
+Updated NY_kutsid_puhastatud_v4.parquet DuckDB jaoks
+Kustutatud vanad andmefailid, mida enam ei ole tarvis. 
+Andmestiku lõppversioon NY_kutsid_puhastatud_v4.csv(või .parquet) 
