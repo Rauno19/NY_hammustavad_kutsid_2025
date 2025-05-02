@@ -1,15 +1,19 @@
-#Originaalkood: Priit Adleri githubist: https://github.com/adlerpriit/DECM_WS_Docker_ETL_AS/blob/main/transform_ilmateenistus.py
-
 import pandas as pd
-import argparse
+import argparse 
+
 # Read in data from Excel (requires openpyxl). Adjust the filename as needed:
-df = pd.read_excel('data/NY_kutsid_puhastatud_v4_workfile.xlsx', decimal=',')
+df = pd.read_csv('data/NY_kutsid_puhastatud_v4.csv', decimal=',')
 
 # Rename date-related columns (optional, but helpful for clarity).
 df = df.rename(columns={'DateOfBite': 'Date'})
 
-# Export to Parquet
-df.to_parquet('data/NY_kutsid_puhastatud_v4_workfile.parquet', index=False)
+# Merge date information into a single DateTime column, and drop the originals.
+#df['DateTime'] = pd.to_datetime(
+    #df['year'].astype(str) + '-' + df['month'].astype(str) + '-' + df['day'].astype(str) + ' ' + df['time'].astype(str),
+    #format='%Y-%m-%d %H:%M:%S', 
+  #  utc=True
+#)
+#df = df.drop(columns=['year', 'month', 'day', 'time'])
 
-#'data_folder as example -> use your own path 
-#run in active devcontainer
+# Export to Parquet
+df.to_parquet('data/NY_kutsid_puhastatud_v4.1.parquet', index=False)

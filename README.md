@@ -28,4 +28,4 @@ Muudetud 25.04 13.02
 02.05.25 
 Updated NY_kutsid_puhastatud_v4.parquet DuckDB jaoks
 Kustutatud vanad andmefailid, mida enam ei ole tarvis. 
-Andmestiku lõppversioon NY_kutsid_puhastatud_v4.csv(või .parquet) 
+Andmestiku lõppversioon NY_kutsid_puhastatud_v4.1.csv(või .parquet) 
