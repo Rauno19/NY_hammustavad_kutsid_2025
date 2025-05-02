@@ -1,6 +1,7 @@
 #Originaalkood: Priit Adleri githubist: https://github.com/adlerpriit/DECM_WS_Docker_ETL_AS/blob/main/transform_ilmateenistus.py
 
 import pandas as pd
+import argparse
 # Read in data from Excel (requires openpyxl). Adjust the filename as needed:
 df = pd.read_excel('data/NY_kutsid_puhastatud_v4_workfile.xlsx', decimal=',')
 
