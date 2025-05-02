@@ -13,6 +13,15 @@ Repos kaks faili "NY_Kutsid.xmls", kus on AGE väärtustes tühjad lahtrid ja "N
 
 Muudetud 24.04 20.50
 
-Repos uu puhastatud csv fail NY_kutsid_puhastatud_v3.csv
+Repos uus puhastatud csv fail NY_kutsid_puhastatud_v3.csv
 Muudetud 25.04 13.02
+
+02.05.25:  v4: less dogbreeds, added size, breed group, geopoint
+* UUS flat andmefail: NY_kutsid_puhastatud_v4.csv, fail loodud NY_kutsid_puhastatud_v3.csv pealt, muudatused tehtud excelis, algfailile lisatud uued veerud:
+  Breed_v4 - veel rohkme kokku grupeeritud koeratõud.
+  DogSize_v4 - medium, large jne.
+  DogType_v4 - nt hunting, herding, toy, companion jmt.
+  ZipCode_v4 - puhastatud/täiendatud zipcode.
+  GeoPoint_v4 -  ZipCode_v4 järgi latitude ja longitude.
+* NY_kutsid_puhastatud_v4_workfile.xlsx: tavaline excel tööfail, mille data alusel genereeritud NY_kutsid_puhastatud_v4.csv.
 
