@@ -10,4 +10,5 @@ df = df.rename(columns={'DateOfBite': 'Date'})
 # Export to Parquet
 df.to_parquet('data/NY_kutsid_puhastatud_v4_workfile.parquet', index=False)
 
-#'data_folder as example -> use your own path
+#'data_folder as example -> use your own path 
+#run in active devcontainer
