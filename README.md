@@ -25,3 +25,5 @@ Muudetud 25.04 13.02
   GeoPoint_v4 -  ZipCode_v4 järgi latitude ja longitude.  
 * NY_kutsid_puhastatud_v4_workfile.xlsx: tavaline excel tööfail, mille data alusel genereeritud NY_kutsid_puhastatud_v4.csv.
 
+02.05.25 
+Updated NY_kutsid_puhastatud_v4.parquet for DuckDB
