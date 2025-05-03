@@ -70,4 +70,4 @@ Initsieeri Superset luues vajalikud kasutajad jm
 docker exec -it superset superset init
 ````
 
-Tulemusena käib konteineri sees Superset. Kontrolliks tuleb minna veebibrauseris localhost:8088 sisestada seadistatud kasutajanimi ja parool
+Tulemusena käib konteineri sees Superset. Kontrolliks tuleb minna veebibrauseris localhost:8088 sisestada seadistatud kasutajanimi ja paroool
