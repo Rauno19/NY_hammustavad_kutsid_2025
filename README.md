@@ -29,3 +29,10 @@ Muudetud 25.04 13.02
 Updated NY_kutsid_puhastatud_v4.parquet DuckDB jaoks
 Kustutatud vanad andmefailid, mida enam ei ole tarvis. 
 Andmestiku lõppversioon NY_kutsid_puhastatud_v4.1.csv(või .parquet) 
+
+03.05.25 
+Lisatud skriptide alla .md fail **how_to_build_superset**, mis sisaldab: 
+1. Detailseid juhiseid, kuidas alla laadida Docker Desktopi
+2. Kuidas Docker Desktopi seadistada (sh projekti jaoks vajaminevaid laiendusi) 
+3. Kuidas luua devcontainerit koos faili sisu, koodi ja selgitusega 
+4. Kuidas ehitada Apache Superseti ja siduda seda DuckDB andmebaasiga
