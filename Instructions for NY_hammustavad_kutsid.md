@@ -1,0 +1,11 @@
+**Instructions for NY_hammustavad_kutsid**
+
+
+Lae alla .csv (või mõnes muus formaadis) fail leheküljelt https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg/about_data
+Andmefaili uuendatakse **kord?** aastas, enamik veerge on vabavastuselised, mis teeb transformeerimise (ühest andmetüübist teise) keerulisemaks ja puhastamise aeganõudvamaks 
+
+Failis on veerud, mis vajavad puhastamist ja transformatsioone. 
+Puhastamiseks ja transformeetimiseks kasutada OpenRefine, lisaveergude tegemiseks on selles projektis kasutatud MS Excelit.
+Eemaldada read, milles on tühjad lahtrid
+Transformeerida vanus (age) ühtsele kujule (vanus aastates) -> tegu on vaikimisi tekstilise veeruga
+Puhastada ja grupeerida koeratõud nime alusel kasutades OpenRefine text facet - **group funktsiooni (nt KNN)?**  
