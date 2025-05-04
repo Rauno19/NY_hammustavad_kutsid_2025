@@ -39,3 +39,6 @@ Lisatud skriptide alla .md fail **how_to_build_superset**, mis sisaldab:
 
 04.05 17.02 
 Uuendatud fail Data_visualisation_in_Superset
+
+04.05 21.21
+Uuendatud .parquet fail Superseti jaoks: NY_kutsid_puhastatud_v4.2.parquet
