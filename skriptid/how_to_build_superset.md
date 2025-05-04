@@ -37,7 +37,7 @@ USER superset
 2. Salvesta fail
 
 3. Kui dockerfile on loodud tuleb hakata üles seadma Apache Superseti 
-(käivita järgnevad käsud VS Code Terminalis directoris, kus asub Dockerfail, mis üleeelmises punktis loodi.  Vajalik navigeerimine tekitatud kausta nt cd.. \users\Username\Desktop\Reponimi\superset
+(käivita järgnevad käsud VS Code Terminalis directoris, kus asub Dockerfail, mis üleeelmises punktis loodi).  Vajalik navigeerimine tekitatud kausta nt cd.. \users\Username\Desktop\Reponimi\superset  
 Jooksuta 
 ````bash
 docker build -t minu-superset .
@@ -51,7 +51,7 @@ Suunab liikluse arvuti pordilt (vasakpoolne) 8088 kontrineri sees töötava Supe
 Võib kasutada ka arvuti porti 8080
 -d käivitab konteineri 
 -v ${PWD}:/data:rw ${PWD} tuleb asenda täieliku teekonnaga arvutis, kus hoitakse andmefaile Nt: -v /Users/yourusername/superset_data:/data:rw failidele on antud käsuga :rw nii lugemis kui kirjutamisõigused
-"SUPERSET_SECRET_KEY=sinu_salasona" osa *sinu_salasona* asemel tuleb sisestada mingi unikaalne väärtus. 
+"SUPERSET_SECRET_KEY=sinu_salasona" osa *sinu_salasona* asemel tuleb sisestada mingi unikaalne väärtus.   
 Loo administraatori konto:
 ````bash
 docker exec -it minu-superset superset fab create-admin \
@@ -70,4 +70,8 @@ Initsieeri Superset luues vajalikud kasutajad jm
 docker exec -it superset superset init
 ````
 
-Tulemusena käib konteineri sees Superset. Kontrolliks tuleb minna veebibrauseris localhost:8088 sisestada seadistatud kasutajanimi ja paroool
+Tulemusena käib konteineri sees Superset. Kontrolliks tuleb minna veebibrauseris 
+````bash 
+localhost:8088
+```` 
+sisestada seadistatud kasutajanimi ja paroool
