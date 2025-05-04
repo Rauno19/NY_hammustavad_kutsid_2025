@@ -18,6 +18,6 @@ NB! Kui andmefail on .csv kujul, siis
 SELECT * FROM  read_csv('/data/andmefaili_asukoht/andmefailinimi.csv');
 ````  
 Vajuta "Run Selection" ja "Save dataset" (väikene nool alla "Save" nupu juures) ja "Save and Explore"  
-Nüüd saad hakata joonistama graafikuid, koostama tabeleid jm  
+Nüüd saad hakata joonistama graafikuid, koostama tabeleid jm.  
 
 
