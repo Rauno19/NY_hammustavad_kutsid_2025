@@ -74,4 +74,4 @@ Tulemusena käib konteineri sees Superset. Kontrolliks tuleb minna veebibrauseri
 ````bash 
 localhost:8088
 ```` 
-sisestada seadistatud kasutajanimi ja paroool
+sisestada seadistatud kasutajanimi ja parool
