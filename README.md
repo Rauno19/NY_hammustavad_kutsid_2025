@@ -36,3 +36,9 @@ Lisatud skriptide alla .md fail **how_to_build_superset**, mis sisaldab:
 2. Kuidas Docker Desktopi seadistada (sh projekti jaoks vajaminevaid laiendusi) 
 3. Kuidas luua devcontainerit koos faili sisu, koodi ja selgitusega 
 4. Kuidas ehitada Apache Superseti ja siduda seda DuckDB andmebaasiga
+
+04.05 17.02 
+Uuendatud fail Data_visualisation_in_Superset
+
+04.05 21.21
+Uuendatud .parquet fail Superseti jaoks: NY_kutsid_puhastatud_v4.2.parquet

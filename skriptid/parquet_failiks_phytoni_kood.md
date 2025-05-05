@@ -1,3 +1,4 @@
+````bash
 import pandas as pd
 import argparse 
 
@@ -17,3 +18,4 @@ df = df.rename(columns={'DateOfBite': 'Date'})
 
 # Export to Parquet
 df.to_parquet('data/NY_kutsid_puhastatud_v4.1.parquet', index=False)
+````
