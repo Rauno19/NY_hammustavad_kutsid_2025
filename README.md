@@ -45,7 +45,8 @@ Uuendatud .parquet fail Superseti jaoks: NY_kutsid_puhastatud_v4.2.parquet
 
 **05.05.25** 21:11 mari  
 lisatud andmestiku kausta failid:  
-* ALGDATA_DogBit.csv  
+* ALGDATA_DogBit.csv
+* ALGDATA_DogBit.parquet  - (lisatud kausta 06.05.25)
 * ALGDATA_DogBite_working.xlsx - fail mis sisaldab nii algallikast laetud andmetabelit ja puhastatud+täiustatud DATATRANSFORM tabelit.
   
 **Andmetöötluse protsess** (*see on ära toodud ka ALGDATA_DogBite_working.xlsx sheedil DataTransStep*):  
