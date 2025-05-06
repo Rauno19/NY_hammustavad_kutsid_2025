@@ -2,7 +2,7 @@ import pandas as pd
 import argparse 
 
 # Read in data from Excel (requires openpyxl). Adjust the filename as needed:
-df = pd.read_csv('../andmestikud/NY_kutsid_puhastatud_v4.2.txt', decimal=',', sep=';')
+df = pd.read_csv('./andmestikud/ALGDATA_DogBit.txt', decimal=',', sep=';')
 
 # Rename date-related columns (optional, but helpful for clarity).
 df = df.rename(columns={'DateOfBite': 'Date'})
@@ -16,4 +16,4 @@ df = df.rename(columns={'DateOfBite': 'Date'})
 #df = df.drop(columns=['year', 'month', 'day', 'time'])
 
 # Export to Parquet
-df.to_parquet('../andmestikud/NY_kutsid_puhastatud_v4.2.parquet', index=False)
+df.to_parquet('./andmestikud/ALGDATA_DogBit.parquet', index=False)
