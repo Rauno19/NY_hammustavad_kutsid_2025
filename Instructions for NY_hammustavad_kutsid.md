@@ -17,4 +17,4 @@ Breed_v4 - täiendavalt grupeeritud koeratõud.
 
 Devcontaineri ja Superseti ülesseadmine -> vt täpsemalt fail **how_to_build_superset**  ja **Data_visualisation_in_Superset**  
 Kui devcontainer ja superset on üles seatud tuleb fail transformeerida DuckDB jaoks .parquet failiks  
-Faili transformeerimiseks saab Devcontaineris kasutada valmis skripti **parquet_failiks_pythoni_kood**, mis transformeerib .csv (või .xlsx faili) DuckDB jaoks .parquet failiks (antud projekti raames on tegu väikese andmestikuga, saab kasutada ka .csv faili)    
+Faili transformeerimiseks saab Devcontaineris kasutada valmis skripti **parquet_failiks_pythoni_kood**, mis transformeerib .csv, .xlsx (või .txt) faili DuckDB jaoks .parquet failiks (antud projekti raames on tegu väikese andmestikuga, saab kasutada ka .csv faili)    
