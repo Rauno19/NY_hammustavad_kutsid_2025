@@ -82,7 +82,11 @@ lisatud andmestiku kausta failid:
   5. Andmeanalüüsi (Superset) jaoks on algandmestikule juurde lisatud uusi andmeveerge:  
     * DogSize - koerad grupeerida suurustesse (small, medium jne)  
     * DogType - koerad grupeerida aretuse eesmärgi gruppidesse (guardian, herding, companion jne)  
-    * GeoPoint - andmestiku postiindeksi (zipcode) järgi lisatuid; kui superset võimaldab, siis saaks joonistada kaarti.  
+    * GeoPoint - andmestiku postiindeksi (zipcode) järgi lisatuid; kui superset võimaldab, siis saaks joonistada kaarti. 
+
+  Joonistatud R-is kaart hammustuste asukohad (kood skriptide all (NY_kutsid_kaart_Ris.md), kus geograafiline pikkus ja laius on eraldi veergudes)  (07.05)
+
+  Supersetis visualiseeritud kõik ülejäänud graafikud - fail lisatud valmis_toolauad_joonised kausta (08.05)
    
 
 
