@@ -3,7 +3,8 @@ Andmetehnika projekt
 
 **Andmesitku kirjeldus**  
 Andmestik on pärit leheküljelt: https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg/about_data  
-Tegu on New Yorgis registreeritud koerarünnakute andmetega. Andmeid uuendatakse kord aastas.  
+Tegu on New Yorgis registreeritud koerarünnakute andmetega. Andmeid uuendatakse kord aastas. Andmed on tabelikujul, numbrilsed ja tekstilised. 
+Andmed saab alla laadida tabeli kujul (.csv, .xlsx jm)   
 Algses andmefailis on 9 veergu, mis sisaldavad infot järgnevate tunnuste kohta: 
 * UniqueId - rünnaku id, mis tegelikult pole unikaalne  
 * DateOfBite - rünnaku kuupäev  
